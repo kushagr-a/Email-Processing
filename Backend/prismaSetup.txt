@@ -1,0 +1,6 @@
+1. npm i --save-dev prisma
+2. npm install @prisma/client @prisma/adapter-pg dotenv pg
+3. npx prisma init
+4. going to --> neon database this provide cloud based database
+5. use connect then conect to your db and copy .env string and put in your file 
+6. after making table in your ide run --> npx prisma migrate dev
