@@ -4,3 +4,7 @@
 4. going to --> neon database this provide cloud based database
 5. use connect then conect to your db and copy .env string and put in your file 
 6. after making table in your ide run --> npx prisma migrate dev
+7. connection prisma with database and also object
+8. writing your code in your db.js file then 
+9. run npx prisma generate
+10. prisma ready to used 
