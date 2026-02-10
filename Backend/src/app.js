@@ -3,6 +3,7 @@ import cors from "cors"
 
 import { config } from "./config/config.js"
 
+
 const app = express()
 
 const PORT = config.PORT
