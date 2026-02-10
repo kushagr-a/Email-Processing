@@ -2,6 +2,7 @@ import express from "express"
 import cors from "cors"
 
 import { config } from "./config/config.js"
+import { registerUploadRoutes } from "./routes/uload.js"
 
 
 const app = express()
@@ -17,6 +18,8 @@ app.get("/", (req, res) => {
         message: "Server up!"
     })
 })
+
+registerUploadRoutes(app)
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
